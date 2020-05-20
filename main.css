@@ -308,7 +308,7 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid #fd57bf;
-    background-color: #1c021d;
+    background-color: #16162d;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -448,10 +448,11 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: rgb(0, 132, 255);
+    resize: none;
 }
 
-input[tpye="submit"]{
+input[type="submit"]{
     width: initial;
     background-color: #fd57bf;
     color: #eee;
@@ -461,9 +462,9 @@ input[tpye="submit"]{
     transition: background-color 650ms;
 }
 
-input[tpye="submit"]{
+input[type="submit"]{
     color: #221e3f;
-    background-color: #ffe838
+    background-color: #5af767;
 }
 
 /*End contact*/
