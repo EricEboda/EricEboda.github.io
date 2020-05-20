@@ -40,6 +40,7 @@ p{
 
 img{
     width: 100%;
+    display: block;
 }
 /*End global*/
 
@@ -258,6 +259,7 @@ li{
 .profile-img{
     flex: 1;
     margin-right: 5rem;
+    border: solid white 3px;
 }
 
 .about-details{
@@ -305,15 +307,15 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #fd57bf;
+    background-color: #1c021d;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: #ffe838;
+    color: #fd57bf;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -334,6 +336,7 @@ li{
 
 .portfolio-img{
     flex: 1;
+    border: solid white 3px;
 }
 
 .portfolio-description{
@@ -429,10 +432,6 @@ li{
 /*End timeline*/
 
 /*Start contact*/
-.contact{
-    background-color: #221e3f;
-}
-
 form{
     width: 70%;
     margin: 0 auto;
