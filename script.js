@@ -13,4 +13,9 @@ $(document).ready(function () {
         $('html, body').animate({
             scrollTop: 0}, 1500);
     });
+
+    AOS.init({
+        easing: 'ease',
+        duration: 1000
+    });
 });

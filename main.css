@@ -60,7 +60,8 @@ img{
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    color: rgb(255, 255, 255);
+    opacity: .7;
     font-weight: 300;
     position: relative;
     margin-bottom: 2rem;
@@ -73,7 +74,7 @@ section-heading h1::after{
     bottom: -1rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: #fd57bf;
 }
 
 .section-heading h1::before{
@@ -225,6 +226,13 @@ li{
     padding-left: 30px;
 }
 
+.animation-support{
+    position: relative;
+    width: 2%;
+    bottom: 0;
+    left: 0;
+}
+
 .cover-image{
     position: absolute;
     bottom: 0;
@@ -311,14 +319,15 @@ li{
     background-color: #16162d;
     margin-bottom: 2rem;
     display: flex;
-    transform: rotate(45deg);
 }
 
 .icon-container i{
     color: #fd57bf;
     font-size: 5rem;
     margin: auto;
-    transform: rotate(-45deg);
+    animation: sway1 2s infinite;
+    transform-origin: 50% 100% 100%;
+
 }
 /*End interests*/
 
@@ -513,6 +522,11 @@ input[type="submit"]{
     100%{
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
     }
+}
+
+@keyframes sway1 {
+    0%, 100%{ transform: rotate(-12deg);}
+    50%{ transform: rotate(6deg); }
 }
 /*End animations*/
 
