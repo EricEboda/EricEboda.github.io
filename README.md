@@ -1,2 +1,2 @@
 # EricEboda.github.io
-![Cover Image](https://github.com/EricEboda/EricEboda.github.io/master/readme.png?raw=true)
+![Cover Image](https://github.com/EricEboda/EricEboda.github.io/blob/master/images/readme.png?raw=true)
