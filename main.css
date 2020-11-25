@@ -1,4 +1,4 @@
-/*Start global*/
+/*Beginning of General Styling*/
 @font-face{
     font-family: 'Bratt Graner';
     src: url(fonts/Bratt\ Graner.ttf);
@@ -42,9 +42,7 @@ img{
     width: 100%;
     display: block;
 }
-/*End global*/
 
-/*Start reusable*/
 .container{
     width: 90%;
     max-width: 120rem;
@@ -98,9 +96,9 @@ section-heading h1::after{
 .has-margin-right{
     margin-right: 5rem;
 }
-/*End reusable*/
+/*End of General Styling*/
 
-/*Start header*/
+/*Beginning of Header Styling*/
 header{
     width: 100%;
     height: 100vh;
@@ -231,30 +229,13 @@ li{
     bottom: 0;
     right: 0;
 }
-/*End header*/
+/*End of Header Styling*/
 
-/*Start about*/
+/*Beginning of About Styling*/
 .about .container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.about-heading{
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 0;
-    margin-bottom: 6rem;
-}
-
-.about-heading h1{
-    font-size: 10rem;
-    opacity: .3;
-}
-
-.about-heading h6{
-    font-size: 2rem;
-    font-weight: 300;
 }
 
 .profile-img{
@@ -263,8 +244,22 @@ li{
     border: solid white 3px;
 }
 
+.about-heading {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+    font-size: 40px;
+    opacity: 0.6;
+}
+
 .about-details{
     flex: 1;
+}
+
+#about-text{
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .social-media{
@@ -280,9 +275,9 @@ li{
 .fa-github:hover{
     color: red;
 }
-/*End about*/
+/*End of About Styling*/
 
-/*Start interests*/
+/*Beginning of Interests Styling*/
 .my-hobbies{
     margin-top: 10rem;
     display: grid;
@@ -322,9 +317,9 @@ li{
     transform-origin: 50% 100% 100%;
 
 }
-/*End interests*/
+/*End of Interests Styling*/
 
-/*Start portfolio*/
+/*Beginning of Portfolio Styling*/
 .portfolio-item{
     display: flex;
     align-items: center;
@@ -370,11 +365,11 @@ li{
 .portfolio-description .cta:hover{
     color: #2f67cd;
 }
-/*End portfolio*/
+/*End of Portfolio Styling*/
 
-/*Start timeline*/
+/*Beginning of Timeline Styling*/
 .timeline ul{
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #fd57bf;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.05);
     margin: 0 auto;
@@ -411,7 +406,7 @@ li{
     position: absolute;
     display: block;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-25%);
 }
 
 .timeline .date::before{
@@ -424,16 +419,16 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 3px #fd57bf;
-    border-radius: 100%;
-    left: -7.8rem;
-    height: 1.2rem;
-    width: 1.2rem;
-    background-color: #221e3f;
+    box-shadow: 0 0 0 2.5px #fd57bf;
+    left: -7.7rem;
+    transform: rotate(45deg);
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
 }
-/*End timeline*/
+/*End of Timeline Styling*/
 
-/*Start contact*/
+/*Beginning of Contact Styling*/
 form{
     width: 70%;
     margin: 0 auto;
@@ -469,9 +464,9 @@ input[type="submit"]{
     background-color: #5af767;
 }
 
-/*End contact*/
+/*End of Contact Styling*/
 
-/*Start footer*/
+/*Beginning of Footer Styling*/
 .copyright{
     width: 100%;
     text-align: center;
@@ -502,9 +497,9 @@ input[type="submit"]{
 .copyright p{
     font-size: 1,4rem;
 }
-/*End footer*/
+/*End of Footer Styling*/
 
-/*Start animations*/
+/*Beginning of Animations*/
 @keyframes pulse{
     0%{
         box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
@@ -521,9 +516,9 @@ input[type="submit"]{
     0%, 100%{ transform: rotate(-12deg);}
     50%{ transform: rotate(6deg); }
 }
-/*End animations*/
+/*End of Animations*/
 
-/*Start media queries*/
+/*Beginning of Media Queries*/
 @media screen and (max-width: 1200px) {
     .cover-image{
         margin: 0 -30rem -10rem 0;
@@ -664,4 +659,4 @@ input[type="submit"]{
 
 
 }
-/*End media queries*/
+/*End of Media Queries*/
